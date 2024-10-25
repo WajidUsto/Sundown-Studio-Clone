@@ -71,6 +71,62 @@ body {
     margin-left: 1.5%;
 }
 
+    #anime-div {
+        width: 48vw;
+        height: 35vw;
+        background : linear-gradient(#FE320C , #fe590c);
+        position: absolute;
+        right: 0px;
+        top: 80%;
+        filter: blur(25px);
+        border-top-left-radius: 40%;
+        border-bottom-left-radius: 40%;
+    }
+    #blur-1{
+        position: absolute;
+        width: 35vw;
+        height: 30vw;
+        border-radius: 50%;
+        background : linear-gradient(#FE320C , #fe590c);
+        animation: blur-div 6s infinite alternate ;
+        animation-timing-function: linear;
+    }
+    #blur-2{
+        position: absolute;
+        width: 35vw;
+        height: 30vw;
+        border-radius: 50%;
+        background : linear-gradient(#FE320C , #fe590c);
+        animation: blur-div2 5s infinite alternate ;
+        animation-timing-function: linear;
+    }
+
+
+    /* Animations */
+    /* Animations */
+
+    /* Page 1 */
+@keyframes blur-div {
+    from{
+        transform: translate(-5%, 20%);
+    }
+    to{
+        transform: translate(33%, -10%);
+    }
+}
+@keyframes blur-div2 {
+    from{
+        transform: translate(4%, -9%);
+    }
+    to{
+        transform: translate(7%, 24%);
+    }
+}
+/* Page 1 */
+
+
+
+
 /* Media Queries */
 /* Media Queries */
 
