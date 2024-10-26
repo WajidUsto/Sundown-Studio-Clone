@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Text-Font-2";
+    background-color: #EFEAE3;
 }
 
 /* Fonts */
@@ -66,13 +67,13 @@ body {
 
 #page-1-border-b {
     border-bottom: 1px solid #BFBBB6;
-    padding-top: 45px;
+    padding-top: 50px;
     width: 97.2%;
     margin-left: 1.5%;
 }
 
     #anime-div {
-        width: 48vw;
+        width: 50vw;
         height: 35vw;
         background : linear-gradient(#FE320C , #fe590c);
         position: absolute;
@@ -101,6 +102,13 @@ body {
         animation-timing-function: linear;
     }
 
+    #page-1-video video{
+        border-radius: 4%;
+        position: relative;
+        z-index: 3;
+        top: 5rem;
+        padding: 0px 20px;
+    }
 
     /* Animations */
     /* Animations */
