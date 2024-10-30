@@ -73,13 +73,13 @@ body {
 }
 
     #anime-div {
-        width: 50vw;
+        width: 53vw;
         height: 35vw;
         background : linear-gradient(#FE320C , #fe590c);
         position: absolute;
         right: 0px;
-        top: 80%;
-        filter: blur(25px);
+        top: 32.8rem;
+        filter: blur(22px);
         border-top-left-radius: 40%;
         border-bottom-left-radius: 40%;
     }
@@ -89,7 +89,7 @@ body {
         height: 30vw;
         border-radius: 50%;
         background : linear-gradient(#FE320C , #fe590c);
-        animation: blur-div 6s infinite alternate ;
+        animation: blur-div 4s infinite alternate ;
         animation-timing-function: linear;
     }
     #blur-2{
@@ -98,15 +98,14 @@ body {
         height: 30vw;
         border-radius: 50%;
         background : linear-gradient(#FE320C , #fe590c);
-        animation: blur-div2 5s infinite alternate ;
+        animation: blur-div2 4s infinite alternate ;
         animation-timing-function: linear;
     }
 
     #page-1-video video{
         border-radius: 4%;
         position: relative;
-        z-index: 3;
-        top: 5rem;
+        margin-top: 4rem;
         padding: 0px 20px;
     }
 
