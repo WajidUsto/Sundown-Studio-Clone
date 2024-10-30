@@ -169,7 +169,9 @@ body {
     text-align: center;
     margin: 7px 20px;
 }
-
+#bott-text h1{
+    font-family: "Text-Font";
+}
 
 @keyframes textmove {
     from{
