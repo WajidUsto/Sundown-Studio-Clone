@@ -131,9 +131,55 @@ body {
 }
 /* Page 1 */
 
+/* Page-2 */
+#moving-text{
+    display: flex;
+}
+#mov-con{
+    white-space: nowrap;
+    animation-name: textmove;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#mov-con::selection{
+    display: none;
+}
+#moving-text::selection{
+    display: none;
+}
+#mov-con h1::selection{
+    display: none;
+}
+#circle::selection{
+    display: none;
+}
+#mov-con h1{
+    font-size: 7.5rem;
+    display: inline-block;
+    font-family: "Text-Font";
+}
+
+#circle{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #FE320C;
+    display: inline-block;
+    text-align: center;
+    margin: 7px 20px;
+}
 
 
+@keyframes textmove {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
 
+    }
+}
 /* Media Queries */
 /* Media Queries */
 

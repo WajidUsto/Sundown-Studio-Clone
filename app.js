@@ -1,7 +1,4 @@
-
-
-
-
+// LocoMotive Scroll
 
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
