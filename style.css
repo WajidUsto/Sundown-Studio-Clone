@@ -183,7 +183,23 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
+#elem{
+    overflow: hidden;
+    border-bottom: 1px solid #ADA7A7;
+}
+#overlay{
+    transition: ease 0.5s;
+    
+}
+#elem:hover #overlay{
+    top: 0%;
+}
+#elem:hover #p-3-left-text h3{
+    color: #818181;
+}
+#elem h1{
+    font-family: "Text-Font";
+}
 
 @keyframes textmove {
     from{
