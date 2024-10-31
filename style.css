@@ -73,12 +73,12 @@ body {
 }
 
     #anime-div {
-        width: 53vw;
+        width: 51vw;
         height: 35vw;
         background : linear-gradient(#FE320C , #fe590c);
         position: absolute;
         right: 0px;
-        top: 32.8rem;
+        top: 80vh;
         filter: blur(22px);
         border-top-left-radius: 40%;
         border-bottom-left-radius: 40%;
@@ -172,7 +172,9 @@ body {
 #bott-text h1{
     font-family: "Text-Font";
 }
-
+#moving-text{
+    overflow-x: hidden;
+}
 @keyframes textmove {
     from{
         transform: translateX(0);
