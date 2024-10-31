@@ -234,7 +234,13 @@ body {
     color: rgba(255, 255, 255, 0.788);
     transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
 }
-
+#page-4{
+    color: #EFEAE3;
+}
+#black-left-con h1{
+    font-size: 4vw;
+    font-family: "Text-Font";
+}
 @keyframes textmove {
     from{
         transform: translateX(0);
