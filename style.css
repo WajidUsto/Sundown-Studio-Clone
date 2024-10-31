@@ -57,10 +57,13 @@ body {
 #nav-links h4:hover a {
     position: relative;
     z-index: 9;
-    color: rgba(255, 255, 255, 0.788);
+    color: white;
     transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
 }
-
+#nav-links h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
 #container {
     font-family: "Text-Font";
 }
@@ -231,15 +234,20 @@ body {
 #bottom-btn h4:hover a {
     position: relative;
     z-index: 9;
-    color: rgba(255, 255, 255, 0.788);
+    color: white;
     transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
+}
+#bottom-btn h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
 }
 #page-4{
     color: #EFEAE3;
 }
 #black-left-con h1{
     font-size: 4vw;
-    font-family: "Text-Font";
+    font-family: "Text-Font-2";
+    font-weight: 700;
 }
 @keyframes textmove {
     from{
