@@ -186,10 +186,13 @@ body {
 #elem{
     overflow: hidden;
     border-bottom: 1px solid #ADA7A7;
+    transition: ease 0.5s;
 }
 #overlay{
     transition: ease 0.5s;
-    
+}
+#elem:hover img{
+    opacity: 1;
 }
 #elem:hover #overlay{
     top: 0%;
