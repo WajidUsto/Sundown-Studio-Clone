@@ -175,6 +175,16 @@ body {
 #moving-text{
     overflow-x: hidden;
 }
+#bg-circle{
+    background: linear-gradient(to top right,#FE330A , #f86539);
+    animation-name: circleMove;
+    animation-duration: 3.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
 @keyframes textmove {
     from{
         transform: translateX(0);
@@ -182,6 +192,14 @@ body {
     to{
         transform: translateX(-100%);
 
+    }
+}
+@keyframes circleMove {
+    from{
+        transform: translate(10%, -10%) skew(4deg);
+    }
+    to{
+        transform: translate(10%, -12%) skew(-14deg);
     }
 }
 /* Media Queries */
