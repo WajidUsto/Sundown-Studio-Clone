@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./Assets/Imgs/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
-
 <body>
     <!-- Main Wrapper -->
     <!-- Main Wrapper -->
@@ -209,14 +209,20 @@
             </div>
         </div>
         <div id="page-5" class="w-[100%] min-h-[70vh]">
-            <div id="swipper">
-                
+            <div id="swipper" >
+                <div id="swipper-text" class="flex items-center">
+                    <div id="swip-dot" class="w-[10px] h-[10px] bg-[#FE320C] rounded-[50%] mx-[20px] my-[7px] mr-[12px]"></div>
+                    <h5 class="text-[15px]">WHO WE WORK WITH</h5>
+                </div>
+                <div id="swipper-divs"></div>
             </div>
         </div>
 
 
 
     </div>
+    <!-- Swipper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Locomotive CDN -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <!-- Tailwind CDN -->
