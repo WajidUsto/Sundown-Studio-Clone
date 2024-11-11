@@ -10,7 +10,7 @@ body {
     height: 100%;
     font-family: "Text-Font-2";
     background-color: #EFEAE3;
-    
+
 }
 
 /* Fonts */
@@ -61,10 +61,12 @@ body {
     color: white;
     transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
 }
+
 #nav-links h4:hover::after {
     bottom: 0;
     border-radius: 0;
 }
+
 #container {
     font-family: "Text-Font";
 }
@@ -76,95 +78,107 @@ body {
     margin-left: 1.5%;
 }
 
-    #anime-div {
-        width: 51vw;
-        height: 35vw;
-        background : linear-gradient(#FE320C , #fe590c);
-        position: absolute;
-        right: 0px;
-        top: 80vh;
-        filter: blur(22px);
-        border-top-left-radius: 40%;
-        border-bottom-left-radius: 40%;
-    }
-    #blur-1{
-        position: absolute;
-        width: 35vw;
-        height: 30vw;
-        border-radius: 50%;
-        background : linear-gradient(#FE320C , #fe590c);
-        animation: blur-div 4s infinite alternate ;
-        animation-timing-function: linear;
-    }
-    #blur-2{
-        position: absolute;
-        width: 35vw;
-        height: 30vw;
-        border-radius: 50%;
-        background : linear-gradient(#FE320C , #fe590c);
-        animation: blur-div2 4s infinite alternate ;
-        animation-timing-function: linear;
-    }
+#anime-div {
+    width: 51vw;
+    height: 35vw;
+    background: linear-gradient(#FE320C, #fe590c);
+    position: absolute;
+    right: 0px;
+    top: 80vh;
+    filter: blur(22px);
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
 
-    #page-1-video video{
-        border-radius: 4%;
-        position: relative;
-        margin-top: 4rem;
-        padding: 0px 20px;
-    }
+#blur-1 {
+    position: absolute;
+    width: 35vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#FE320C, #fe590c);
+    animation: blur-div 4s infinite alternate;
+    animation-timing-function: linear;
+}
 
-    /* Animations */
-    /* Animations */
+#blur-2 {
+    position: absolute;
+    width: 35vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(#FE320C, #fe590c);
+    animation: blur-div2 4s infinite alternate;
+    animation-timing-function: linear;
+}
 
-    /* Page 1 */
+#page-1-video video {
+    border-radius: 4%;
+    position: relative;
+    margin-top: 4rem;
+    padding: 0px 20px;
+}
+
+/* Animations */
+/* Animations */
+
+/* Page 1 */
 @keyframes blur-div {
-    from{
+    from {
         transform: translate(-5%, 20%);
     }
-    to{
+
+    to {
         transform: translate(33%, -10%);
     }
 }
+
 @keyframes blur-div2 {
-    from{
+    from {
         transform: translate(4%, -9%);
     }
-    to{
+
+    to {
         transform: translate(7%, 24%);
     }
 }
+
 /* Page 1 */
 
 /* Page-2 */
-#moving-text{
+#moving-text {
     display: flex;
 }
-#mov-con{
+
+#mov-con {
     white-space: nowrap;
     animation-name: textmove;
     animation-duration: 9s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-#mov-con::selection{
+
+#mov-con::selection {
     display: none;
 }
-#moving-text::selection{
+
+#moving-text::selection {
     display: none;
 }
-#mov-con h1::selection{
+
+#mov-con h1::selection {
     display: none;
 }
-#circle::selection{
+
+#circle::selection {
     display: none;
 }
-#mov-con h1{
+
+#mov-con h1 {
     font-size: 7.5rem;
     display: inline-block;
     font-family: "Text-Font";
 }
 
-#circle{
+#circle {
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -173,38 +187,47 @@ body {
     text-align: center;
     margin: 7px 20px;
 }
-#bott-text h1{
+
+#bott-text h1 {
     font-family: "Text-Font";
 }
-#moving-text{
+
+#moving-text {
     overflow-x: hidden;
 }
-#bg-circle{
-    background: linear-gradient(to top right,#FE330A , #f86539);
+
+#bg-circle {
+    background: linear-gradient(to top right, #FE330A, #f86539);
     animation-name: circleMove;
     animation-duration: 3.7s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#elem{
+
+#elem {
     overflow: hidden;
     border-bottom: 1px solid #ADA7A7;
     transition: ease 0.5s;
 }
-#overlay{
+
+#overlay {
     transition: ease 0.5s;
 }
-#elem:hover img{
+
+#elem:hover img {
     opacity: 1;
 }
-#elem:hover #overlay{
+
+#elem:hover #overlay {
     top: 0%;
 }
-#elem:hover #p-3-left-text h3{
+
+#elem:hover #p-3-left-text h3 {
     color: #818181;
 }
-#elem h1{
+
+#elem h1 {
     font-family: "Text-Font";
 }
 
@@ -238,35 +261,76 @@ body {
     color: white;
     transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.4s;
 }
+
 #bottom-btn h4:hover::after {
     bottom: 0;
     border-radius: 0;
 }
-#page-4{
+
+#page-4 {
     color: #EFEAE3;
 }
-#black-left-con h1{
+
+#black-left-con h1 {
     font-size: 4vw;
     font-family: "Text-Font-2";
     font-weight: 700;
 }
+
 @keyframes textmove {
-    from{
+    from {
         transform: translateX(0);
     }
-    to{
+
+    to {
         transform: translateX(-100%);
 
     }
 }
+
 @keyframes circleMove {
-    from{
+    from {
         transform: translate(10%, -10%) skew(4deg);
     }
-    to{
+
+    to {
         transform: translate(10%, -12%) skew(-14deg);
     }
 }
+
+
+/* Swipper JS */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#slider-text{
+    border-left: 1px solid #C8C3BC;
+    padding-left: 20px;
+
+}
+
+.swiper-slide p{
+    width: 78%;
+    color: #2a2929f4;
+    font-size: 1.08vw;
+    padding-top: 30px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+
 /* Media Queries */
 /* Media Queries */
 

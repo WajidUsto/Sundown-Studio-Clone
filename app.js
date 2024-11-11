@@ -51,3 +51,13 @@ executive.addEventListener("click",()=>{
     design.style.color = "#504A45"
     project.style.color = "#504A45"
 })
+
+
+
+// Swipper JS
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 40,
+        slidesPerView: 3.5,
+    });
