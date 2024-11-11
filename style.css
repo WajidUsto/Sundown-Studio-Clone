@@ -10,7 +10,11 @@ body {
     height: 100%;
     font-family: "Text-Font-2";
     background-color: #EFEAE3;
+}
 
+#main{
+    position: relative;
+    z-index: 11;
 }
 
 /* Fonts */
@@ -311,6 +315,12 @@ body {
     }
 }
 
+#footer{
+    height: 80vh;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+}
 
 /* Swipper JS */
 
