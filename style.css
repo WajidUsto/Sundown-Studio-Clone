@@ -27,6 +27,19 @@ body {
     src: url(./Assets/Fonts/NeueHaasDisplay-Roman.ttf);
 }
 
+/* Cursor */
+    /* #cursor{
+        width: 15px;
+        height: 15px ;
+        position: absolute;
+        z-index: 99;
+        background: #fe330a;
+        border-radius: 50px;
+        transform: translate(-50%, -50%);
+    } */
+/* Cursor */
+
+
 /* Navbar */
 /* Navbar */
 
@@ -305,7 +318,9 @@ body {
     width: 100%;
     height: 100%;
 }
-
+.swiper::selection{
+    user-select: none;
+}
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -325,7 +340,7 @@ body {
     width: 78%;
     color: #2a2929f4;
     font-size: 1.08vw;
-    padding-top: 30px;
+    padding-top: 15px;
     text-align: justify;
     font-weight: 100;
 }

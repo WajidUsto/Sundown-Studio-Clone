@@ -6,6 +6,19 @@ const scroll = new LocomotiveScroll({
 });
 
 
+// Cursor
+    // let main = document.querySelector("#main")
+    // let cursor = document.querySelector("#cursor")
+    // main.addEventListener("mousemove",function (dets) {
+    //     gsap.to(cursor,{
+    //         x: dets.x,
+    //         y: dets.y,
+    //         ease:"back.out",
+    //         duration:0.8,
+    //     })
+    // })
+// Cursor
+
 // BlackBox Text Change through  JS
 
 
@@ -58,6 +71,6 @@ executive.addEventListener("click",()=>{
 
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
-        spaceBetween: 40,
+        spaceBetween: 50,
         slidesPerView: 3.5,
     });
