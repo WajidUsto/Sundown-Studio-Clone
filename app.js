@@ -19,6 +19,15 @@ const scroll = new LocomotiveScroll({
     // })
 // Cursor
 
+
+// Loader
+let loader = document.querySelector("#loader")
+
+setInterval(()=>{
+    loader.style.top = "-100%"
+},4000)
+
+
 // BlackBox Text Change through  JS
 
 

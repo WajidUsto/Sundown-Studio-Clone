@@ -16,6 +16,57 @@ body {
     background-color: transparent;
 }
 
+/* Loader */
+#loader{
+    transition: all ease 1s;
+}
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    transition: all ease 1s;
+    z-index: 1111;
+}
+#loader h1{
+    position: absolute;
+    color: transparent;
+    background: linear-gradient(to right,#FF9831,#FE330A);
+    -webkit-background-clip: text;
+    font-size: 7vw;
+    opacity: 0;
+    font-weight: 900;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+#loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+@keyframes loader {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/* Loader */
+
 /* Fonts */
 /* Fonts */
 
@@ -437,6 +488,8 @@ body {
 }
 
 
+
+
 /* Media Queries */
 /* Media Queries */
 
@@ -450,5 +503,52 @@ body {
 
     #nav-links {
         display: none;
+    }
+}
+
+/* Navbar */
+
+
+/* Page 1 */
+
+@media (max-width: 1330px) {
+    #right-cont h1{
+        line-height: 18vh;
+        font-size: 8.2rem;
+    }
+    #nav-links h4{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1080px) {
+    #right-cont h1{
+        line-height: 18vh;
+        font-size: 8.2rem;
+    }
+    #left-cont h3{
+        width: 38vw;
+        line-height: 2.5vw;
+        font-size: 2.5vw;
+    }
+    #nav-links h4{
+        font-size: 14px;
+    }
+}
+@media (max-width: 859px) {
+    #right-cont h1 {
+        line-height: 16vh;
+        font-size: 7.2rem;
+    }
+    #left-cont h3{
+        width: 38vw;
+        line-height: 2.5vw;
+        font-size: 2.5vw;
+    }
+    #nav-links h4{
+        font-size: 14px;
+    }
+    #anime-div {
+        width: 61vw;
+        height: 29vw;
     }
 }
