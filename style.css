@@ -379,7 +379,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 6.2vw 5.7vw;
-    padding-bottom: 4vw;
+    /* padding-bottom: 4vw; */
     width: 100%;
 }
 #footertop h1{
@@ -398,10 +398,10 @@ body {
     border-bottom: 1px solid #EFEAE3;
 }
 #footerbottom svg{
-    margin-top: 5vw;
     border-bottom: 1px solid #504A45;
     padding-bottom: 2vw;
-    width: 100%;
+    width: 96vw;
+    height: 45vh;
 }
 /* Swipper JS */
 
