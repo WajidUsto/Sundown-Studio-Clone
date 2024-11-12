@@ -9,12 +9,11 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Text-Font-2";
-    background-color: #EFEAE3;
+    /* background-color: #EFEAE3; */
 }
 
 #main{
-    position: relative;
-    z-index: 11;
+    background-color: transparent;
 }
 
 /* Fonts */
@@ -314,12 +313,20 @@ body {
         transform: translate(10%, -12%) skew(-14deg);
     }
 }
-
+#page-6{
+    min-height: 116vh;
+    max-width: 100vw;
+    overflow: hidden;
+    background-color: transparent;
+}
 #footer{
-    height: 80vh;
     position: fixed;
-    z-index: 9;
-    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: #EFEAE3;
+    bottom: 0%;
+    z-index: -1;
 }
 
 /* Swipper JS */
