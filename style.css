@@ -319,6 +319,7 @@ body {
     overflow: hidden;
     background-color: transparent;
 }
+/* Footer */
 #footer{
     position: fixed;
     height: 100vh;
@@ -328,7 +329,63 @@ body {
     bottom: 0%;
     z-index: -1;
 }
-
+@keyframes shape1 {
+    0% {
+        transform: rotate(-21deg);
+    }
+    100% {
+        transform: rotate(-37deg);
+    }
+}
+@keyframes shape2 {
+    0% {
+        transform: rotate(26deg);
+    }
+    100% {
+        transform: rotate(36deg);
+    }
+}
+#shape1{
+    position: absolute;
+    background-color: #fe330a;
+    filter: blur(60px);
+    right: 41%;
+    top: -47%;
+    width: 97%;
+    height: 90%;
+    animation-name: shape1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#shape2{
+    position: absolute;
+    background-color: #fe330a;
+    filter: blur(60px);
+    right: -31%;
+    top: -45%;
+    width: 93%;
+    height: 90%;
+    animation-name: shape2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#footertop{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6.2vw 5.7vw;
+    padding-bottom: 4vw;
+}
+#footertop h1{
+    font-family: "Text-Font";
+    font-size: 2.1vw;
+    font-weight: 700;
+}
 /* Swipper JS */
 
 .swiper {
