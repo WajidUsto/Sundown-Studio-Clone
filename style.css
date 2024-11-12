@@ -380,11 +380,28 @@ body {
     justify-content: space-between;
     padding: 6.2vw 5.7vw;
     padding-bottom: 4vw;
+    width: 100%;
 }
 #footertop h1{
     font-family: "Text-Font";
     font-size: 2.1vw;
     font-weight: 700;
+}
+#footer-top-right{
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 17px;
+}
+#footer-top-right h6{
+    border-bottom: 1px solid #EFEAE3;
+}
+#footerbottom svg{
+    margin-top: 5vw;
+    border-bottom: 1px solid #504A45;
+    padding-bottom: 2vw;
+    width: 100%;
 }
 /* Swipper JS */
 
