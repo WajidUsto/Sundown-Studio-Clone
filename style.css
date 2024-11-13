@@ -535,6 +535,19 @@ body {
     }
 }
 @media (max-width: 859px) {
+    #page-1{
+        padding-bottom: 0;
+    }
+    #page-1-video video {
+        margin-bottom: 4rem;
+    }
+    #bg-circle{
+        width: 25rem;
+        height: 25rem;
+        top: 50%;
+        left: 13%;
+    }
+    
     #right-cont h1 {
         line-height: 16vh;
         font-size: 7.2rem;
@@ -544,11 +557,79 @@ body {
         line-height: 2.5vw;
         font-size: 2.5vw;
     }
+    #bott-text h1{
+        line-height: 2.2rem;
+    }
+    #bott-card{
+        width: 30%;
+    }
     #nav-links h4{
         font-size: 14px;
     }
     #anime-div {
         width: 61vw;
         height: 29vw;
+    }
+}
+@media (max-width : 750px) {
+    #right-cont h1 {
+        line-height: 15vh;
+        font-size: 6.2rem;
+    }
+    #page-1-border-b{
+        padding-top: 20px;
+    }
+    #page-1-video video{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    #mov-con h1 {
+        font-size: 5.5rem;
+    }
+    #circle {
+        width: 49px;
+        height: 49px;
+    }
+}
+@media (max-width : 638px) {
+    #page-1-video video{
+        padding: 0px 10px;
+    }
+    #right-cont h1 {
+        line-height: 13vh;
+        font-size: 5.5rem;
+    }
+}
+@media (max-width : 600px) {
+    #menu {
+        display: block;
+    }
+    #manu h4{
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+    #logo img{
+        height: 9.5vh;
+    }
+    #nav-links {
+        display: none;
+    }
+    #container{
+        flex-direction: column-reverse;
+    }
+    #left-cont h3 {
+        width: 56%;
+        line-height: 3.5vw;
+        font-size: 3.5vw;
+    }
+    #bg-circle{
+        width: 15rem;
+        height: 15rem;
+        top: 50%;
+        left: 9%;
+        background: linear-gradient(to right , #ff9831 , #FB5026);
+    }
+    #right-count{
+        padding-top: 70px;
     }
 }
