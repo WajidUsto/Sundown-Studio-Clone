@@ -496,15 +496,6 @@ body {
 
 /* Navbar */
 
-@media (max-width : 600px) {
-    #menu {
-        display: block;
-    }
-
-    #nav-links {
-        display: none;
-    }
-}
 
 /* Navbar */
 
@@ -533,6 +524,9 @@ body {
     #nav-links h4{
         font-size: 14px;
     }
+    #logo{
+        height: 8vh;
+    }
 }
 @media (max-width: 859px) {
     #page-1{
@@ -549,7 +543,7 @@ body {
     }
     
     #right-cont h1 {
-        line-height: 16vh;
+        line-height: 7rem;
         font-size: 7.2rem;
     }
     #left-cont h3{
@@ -571,11 +565,15 @@ body {
         height: 29vw;
     }
 }
-@media (max-width : 750px) {
+@media (max-width:886px) {
     #right-cont h1 {
-        line-height: 15vh;
-        font-size: 6.2rem;
+        line-height: 85px;
+        font-size: 7rem;
+        padding-top: 11rem;
     }
+}
+@media (max-width : 750px) {
+    
     #page-1-border-b{
         padding-top: 20px;
     }
@@ -590,14 +588,20 @@ body {
         width: 49px;
         height: 49px;
     }
+    #right-cont h1 {
+        line-height: 75px;
+        font-size: 5rem;
+        padding-top: 11rem;
+    }
 }
 @media (max-width : 638px) {
     #page-1-video video{
         padding: 0px 10px;
     }
     #right-cont h1 {
-        line-height: 13vh;
-        font-size: 5.5rem;
+        line-height: 75px;
+        font-size: 5rem;
+        padding-top: 11rem;
     }
 }
 @media (max-width : 600px) {
@@ -617,11 +621,6 @@ body {
     #container{
         flex-direction: column-reverse;
     }
-    #left-cont h3 {
-        width: 56%;
-        line-height: 3.5vw;
-        font-size: 3.5vw;
-    }
     #bg-circle {
         width: 21rem;
         height: 21rem;
@@ -629,10 +628,11 @@ body {
         left: 9%;
         background: linear-gradient(to right, #ff9831, #FB5026);
     }
-    #right-cont h1 {
-        line-height: 13vh;
-        font-size: 5.5rem;
-        padding-top: 5rem;
+    #left-cont h3 {
+        line-height: 24px;
+        width: 100%;
+        font-size: 23px;
+        text-align: left;
     }
     #menu h4{
         padding: 5px 15px;
@@ -645,7 +645,11 @@ body {
         line-height: 2rem;
         font-size: 4.2vw;
     }
+    #container{
+        padding-left: 7px;
+        align-items: normal;
 
+    }
 }
 @media (max-width : 500px) {
     #bg-circle {
@@ -668,11 +672,11 @@ body {
     }
     #page-2-bottom{
         flex-direction: column;
-        height: 125vh;
     }
     #bott-card {
         width: 100%;
     }
+    
     #mob-card h1{
         font-family: "Text-Font";
         font-weight: 700;
@@ -687,9 +691,6 @@ body {
         font-weight: 200;
         color: rgb(173, 167, 167);
         font-size: 4vw;
-    }
-    #page-2{
-        height: 155vh;
     }
     #bottom-btn h4{
         padding: 8px 15px;
