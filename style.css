@@ -695,7 +695,10 @@ body {
         width: 100%;
         height: 9rem;
     }
-    
+    #page-6{
+        height: 90vh;
+        min-height: 83vh;
+    }
 }
 
 @media (max-width : 638px) {
@@ -808,8 +811,38 @@ body {
     #swipper-divs{
         margin-top: 2rem;
     }
-    #page-5{
-        height: 75vh;
+    #page-5 {
+        height: 60vh;
+    }
+    #shape2{
+        display: none;
+    }
+    #shape1 {
+        position: absolute;
+        background-color: #fe330a;
+        filter: blur(40px);
+        right: 0;
+        top: -19%;
+        width: 90%;
+        height: 72%;
+        animation-name: shape1;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    #footertop{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10rem;
+        gap: 25px;
+    }
+    #footertop h1 {
+        font-size: 30px;
+    }
+    #footer-top-right {
+        width: 60%;
+        font-size: 20px;
     }
 }
 
@@ -937,6 +970,9 @@ body {
         padding-right: 5rem;
     }
     #page-5{
-        height: 70vh;
+        height: 60vh;
+    }
+    #footerbottom-links h4{
+        font-size: 12px;
     }
 }
