@@ -471,10 +471,14 @@ body {
 }
 
 #footerbottom svg {
-    border-bottom: 1px solid #504A45;
+    /* border-bottom: 1px solid #504A45; */
     padding-bottom: 2vw;
     width: 96vw;
     height: 45vh;
+}
+#footer-border{
+    border-bottom: 1px solid #504A45;
+    width: 100%;
 }
 
 /* Swipper JS */
@@ -681,6 +685,17 @@ body {
     #page-4-img {
         height: 30rem;
     }
+    #footertop h1 {
+        font-size: 23px;
+    }
+    #footer-top-right {
+        width: 50%;
+    }
+    #footerbottom svg {
+        width: 100%;
+        height: 9rem;
+    }
+    
 }
 
 @media (max-width : 638px) {
@@ -912,13 +927,13 @@ body {
     }
     #swipper-slide {
         width: 15rem;
-        margin-right: 0px;
+        margin-right: 10px;
     }
     .swiper-slide p {
         font-size: 12px;
     }
     .swiper-wrapper{
-        padding-left: 1rem;
+        padding-left: 0rem;
         padding-right: 5rem;
     }
     #page-5{
