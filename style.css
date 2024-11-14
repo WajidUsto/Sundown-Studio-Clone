@@ -527,6 +527,10 @@ body {
     #logo{
         height: 8vh;
     }
+    #elem img{
+        width: 29vw;
+        height: 31vh;
+    }
 }
 @media (max-width: 859px) {
     #page-1{
@@ -593,6 +597,9 @@ body {
         font-size: 5rem;
         padding-top: 11rem;
     }
+    #logo img {
+        height: 8.7vh;
+    }
 }
 @media (max-width : 638px) {
     #page-1-video video{
@@ -601,7 +608,7 @@ body {
     #right-cont h1 {
         line-height: 75px;
         font-size: 5rem;
-        padding-top: 11rem;
+        padding-top: 9rem;
     }
 }
 @media (max-width : 600px) {
@@ -613,13 +620,14 @@ body {
         font-size: 14px;
     }
     #logo img{
-        height: 9.5vh;
+        height: 8.5vh;
     }
     #nav-links {
         display: none;
     }
     #container{
         flex-direction: column-reverse;
+        height: 75vh;
     }
     #bg-circle {
         width: 21rem;
@@ -648,15 +656,14 @@ body {
     #container{
         padding-left: 7px;
         align-items: normal;
-
     }
 }
 @media (max-width : 500px) {
     #bg-circle {
-        width: 17rem;
-        height: 17rem;
+        width: 12rem;
+        height: 12rem;
         top: 27%;
-        left: 27%;
+        left: 20%;
         background: linear-gradient(to right, #ff9831, #FB5026);
     }
     #big-screen-cards{
@@ -666,9 +673,9 @@ body {
         display: block;
     }
     #bott-text h1 {
-        line-height: 2rem;
-        font-size: 5.2vw;
-        width: 70vw;
+        line-height: 20px;
+        font-size: 20px;
+        width: 77vw;
     }
     #page-2-bottom{
         flex-direction: column;
@@ -696,5 +703,34 @@ body {
         padding: 8px 15px;
         font-size: 13px;
     }
-
+    #logo img {
+        height: 7.5vh;
+    }
+    #circle {
+        width: 35px;
+        height: 35px;
+    }
+    #mov-con h1 {
+        font-size: 4rem;
+    }
+}
+@media (max-width : 372px) {
+    #circle {
+        width: 25px;
+        height: 25px;
+    }
+    #mov-con h1 {
+        font-size: 3rem;
+    }
+    #left-cont h3 {
+        line-height: 24px;
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+    }
+    #right-cont h1 {
+        line-height: 65px;
+        font-size: 4.5rem;
+        padding-top: 11rem;
+    }
 }
