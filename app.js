@@ -81,5 +81,5 @@ executive.addEventListener("click",()=>{
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
         spaceBetween: 50,
-        slidesPerView: 3.5,
+        // slidesPerView: 1,
     });
