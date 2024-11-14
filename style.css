@@ -648,6 +648,19 @@ body {
 
 }
 @media (max-width : 500px) {
+    #bg-circle {
+        width: 17rem;
+        height: 17rem;
+        top: 27%;
+        left: 27%;
+        background: linear-gradient(to right, #ff9831, #FB5026);
+    }
+    #big-screen-cards{
+        display: none;
+    }
+    #responsive-cards{
+        display: block;
+    }
     #bott-text h1 {
         line-height: 2rem;
         font-size: 5.2vw;
@@ -655,9 +668,32 @@ body {
     }
     #page-2-bottom{
         flex-direction: column;
+        height: 125vh;
     }
     #bott-card {
         width: 100%;
+    }
+    #mob-card h1{
+        font-family: "Text-Font";
+        font-weight: 700;
+        font-size: 9vw;
+        margin-top: 5px;
+    }
+    #mob-card-text h4 {
+        font-weight: 400;
+        font-size: 6vw;
+    }
+    #mob-card-text p {
+        font-weight: 200;
+        color: rgb(173, 167, 167);
+        font-size: 4vw;
+    }
+    #page-2{
+        height: 155vh;
+    }
+    #bottom-btn h4{
+        padding: 8px 15px;
+        font-size: 13px;
     }
 
 }
