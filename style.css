@@ -622,14 +622,42 @@ body {
         line-height: 3.5vw;
         font-size: 3.5vw;
     }
-    #bg-circle{
-        width: 15rem;
-        height: 15rem;
-        top: 50%;
+    #bg-circle {
+        width: 21rem;
+        height: 21rem;
+        top: 39%;
         left: 9%;
-        background: linear-gradient(to right , #ff9831 , #FB5026);
+        background: linear-gradient(to right, #ff9831, #FB5026);
     }
-    #right-count{
-        padding-top: 70px;
+    #right-cont h1 {
+        line-height: 13vh;
+        font-size: 5.5rem;
+        padding-top: 5rem;
     }
+    #menu h4{
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+    #mov-con h1 {
+        font-size: 5rem;
+    }
+    #bott-text h1 {
+        line-height: 2rem;
+        font-size: 4.2vw;
+    }
+
+}
+@media (max-width : 500px) {
+    #bott-text h1 {
+        line-height: 2rem;
+        font-size: 5.2vw;
+        width: 70vw;
+    }
+    #page-2-bottom{
+        flex-direction: column;
+    }
+    #bott-card {
+        width: 100%;
+    }
+
 }
